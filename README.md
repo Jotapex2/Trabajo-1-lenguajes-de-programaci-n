@@ -135,4 +135,4 @@ codigo_icd10 | rango_etario | frecuencia
 
 - `Java` debería rendir mejor en CPU y control fino de memoria en este caso batch.
 - `Python` debería ser más simple de implementar y mantener, con menor performance bruta.
-- `SQL` ofrece la solución declarativa más compacta, pero en este diseño el costo de carga temporal desde CSV forma parte del benchmark, además corre desde Python con SQLite, así que debe tener cierto problema de rendimiento.
+- `SQL` ofrece la solución declarativa más compacta, pero en este diseño el costo de carga temporal desde CSV forma parte del benchmark, por lo que puede correr con cierta desventaja.
